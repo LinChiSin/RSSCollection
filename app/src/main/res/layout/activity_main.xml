@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF"
+    >
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="  扫描WiFi热点  "
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_num_button"
+        />
+
+    <Button
+        android:id="@+id/connecttedButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/scanButton"
+        android:text="  查看已连接网络 "
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_num_button"
+        />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/scanButton"
+        android:text=" 打开WiFi "
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_num_button"
+        />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/startButton"
+        android:layout_toRightOf="@+id/startButton"
+        android:textColor="#ffffff"
+        android:text=" 关闭WiFi "
+        android:background="@drawable/bg_num_button"
+        />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/stopButton"
+        android:layout_toRightOf="@id/stopButton"
+        android:text=" 更新WiFi状态 "
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_num_button"
+        />
+
+    <TextView
+        android:id="@+id/textViewState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/checkButton"
+        android:layout_alignBaseline="@id/checkButton"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textSize="5pt"
+        android:textColor="#333333"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="关闭RSS数据采集"
+        android:textOff="开启RSS数据采集"
+        android:textColor="#ffffff"
+        android:layout_above="@id/startButton"
+        android:background="@drawable/bg_toggle_button"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toggleButton1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="请输入坐标：" />
+
+
+
+   <TextView
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="RSS Collection"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/appname"
+        android:background="#3399CC"
+        />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editText"
+        android:layout_below="@id/appname"
+        android:divider="#3399CC"
+        android:dividerHeight="0.5px"
+        >
+    </ListView>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Java\\SpaceWork\\WifiRss_and_Magnetic_Detect-master_12\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Java\\SpaceWork\\WifiRss_and_Magnetic_Detect-master_12\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "8,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "398,689",
+                        "endLines": "14,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "684,844"
+                    }
+                },
+                {
+                    "source": "D:\\Java\\SpaceWork\\WifiRss_and_Magnetic_Detect-master_12\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "110,59,164,218",
+                        "endColumns": "52,49,52,72",
+                        "endOffsets": "158,104,212,286"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "169,222,272,325",
+                        "endColumns": "52,49,52,72",
+                        "endOffsets": "217,267,320,393"
+                    }
+                },
+                {
+                    "source": "D:\\Java\\SpaceWork\\WifiRss_and_Magnetic_Detect-master_12\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                }
+            ]
+        }
+    ]
+}

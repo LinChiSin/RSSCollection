@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/msgTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:textSize="14sp"
+        android:textColor="#8b1c62"
+        />
+	<TextView
+        android:id="@+id/pswTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 密码：" 
+        android:textSize="18sp"
+        android:textColor="#7d26cd"
+        android:layout_below="@id/msgTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <EditText
+        android:id="@+id/pswEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pswTextView"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

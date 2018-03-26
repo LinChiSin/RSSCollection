@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Mar 26 20:42:31 CST 2018
+0.baseType=DIRECTORY
+0.base=D\:\\Java\\SpaceWork\\WifiRss_and_Magnetic_Detect-master_12\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

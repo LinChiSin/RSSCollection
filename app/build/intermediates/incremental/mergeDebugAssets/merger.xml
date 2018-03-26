@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Java\SpaceWork\WifiRss_and_Magnetic_Detect-master_12\app\src\main\assets"/><source path="D:\Java\SpaceWork\WifiRss_and_Magnetic_Detect-master_12\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\Java\SpaceWork\WifiRss_and_Magnetic_Detect-master_12\app\src\debug\assets"/></dataSet></merger>

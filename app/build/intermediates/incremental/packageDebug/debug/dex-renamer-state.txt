@@ -1,0 +1,4 @@
+#Mon Mar 26 20:42:31 CST 2018
+base.0=D\:\\Java\\SpaceWork\\WifiRss_and_Magnetic_Detect-master_12\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
