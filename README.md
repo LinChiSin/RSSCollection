@@ -19,6 +19,14 @@ A tool for collecting WiFi's Received Signal Strength Indication (RSSI) in Andro
 
 ![](http://ww1.sinaimg.cn/mw690/7b4b737bly1fpqjw5b1fzj20b40xc75u.jpg)
 
+### 安装包直接下载
+
+[点此](https://github.com/LinChiSin/RSSCollection/blob/master/RSSCollector.apk)直接另存为即可。
+
+
+
 ### 声明
 
-本工具基于[@jiangqideng](https://github.com/jiangqideng) 的[RssMagDetect](https://github.com/jiangqideng/RssMagDetect) 开发，特此感谢。
++ 本工具基于[@jiangqideng](https://github.com/jiangqideng) 的[RssMagDetect](https://github.com/jiangqideng/RssMagDetect) 开发，特此感谢。
+
++ 程序仍有十分不完善之处（如需要保持屏幕常亮），欢迎持续改进。
